@@ -5,20 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
-    <script>
-        alert('hello Siaff');
-    </script>
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
 </head>
 <body>
     <form>
-        <input type="text" id="countryName" value="Islamabad" placeholder="Enter Country Name : ">
+        <input type="text" id="countryName" value="Islamabad">
+        <input id="submitButton" type="submit" value="Submit">
     </form>
     <div class="container">
         <div class="temp">
-            <span>244</span>
-           <div class="temp__unit"data-celsius="true" >°C</div> 
+            <span class="mainTemp"></span>
+           <div class="temp__unit" onclick=""  data-celsius="true" >°C</div> 
         </div>
         <div class="desc">MIST</div>
        <div class="detail_Desc">
