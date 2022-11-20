@@ -6,34 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
 </head>
 <body>
+    <form>
+        <input type="text" id="countryName" value="Islamabad" placeholder="Enter Country Name : ">
+    </form>
     <div class="container">
-        <form>
-            <input type="text" id="countryName" placeholder="Enter Country Name : ">
-        </form>
         <div class="temp">
             <span>244</span>
-           <div class="tempUnit" data__C=true>°F/°C</div> 
+           <div class="temp__unit"data-celsius="true" >°C</div> 
         </div>
         <div class="desc">MIST</div>
        <div class="detail_Desc">
 <div class="icons_Disc">
-    <img src="img/pressure.svg" alt="" srcset="">
-    <div id="pressure" class="details__num"></div>
+    <img  class="icon" src="img/pressure.svg" alt="" srcset="">
+    <div id="pressure" class="details__num">122</div>
 </div>
 <div class="icons_Disc">
-    <img src="img/humidity.svg" alt="" srcset="">
-    <div id="humidity" class="details__num"></div>
+    <img class="icon" src="img/humidity.svg" alt="" srcset="">
+    <div id="humidity" class="details__num">111</div>
 </div>
 <div class="icons_Disc">
-    <img src="img/wind.svg" alt="" srcset="">
-    <div id="wind" class="details__num"></div>
+    <img class="icon" src="img/wind.svg" alt="" srcset="">
+    <div id="wind" class="details__num">11</div>
 </div>
-        
-<img src="" alt="" id="weather-icon" />
        </div>
+       <img src="" alt="" id="weather-icon" />
     </div>
 </body>
 </html>

@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #d9afca;
+    background-image: linear-gradient(0deg, #d9afca 0%, #97D9E1 100%);    
+}
+.container{
+    display: flex;
+    align-items: center;
+ text-align: center;
+    flex-direction: column;
+ background-color:rgba(192, 115, 255, 0.5);
+   border-radius: 50px 0;
+}
+.icon{
+    width: 30px;
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(338deg) brightness(108%) contrast(100%);
+}
+#countryName{
+    border: none;
+    font-size: 3.5rem;
+    text-align: center;
+  max-width: 450px;
+  background: none;
+  text-decoration: 1px underline;
+  color: inherit;
+  outline: none;
+    margin: 20px  0;
+    color: rgb(0, 0, 0);
+}
+.temp{
+    display: flex;
+    font-size: 2rem;
+    margin: 20px 0;
+color: white;
+}
+.desc{
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(338deg) brightness(108%) contrast(100%);
+}
+.detail_Desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.weather-icon{
+    width: 90px;
+}
+.temp__unit{
+font-size: 16px;
+    cursor: pointer;
+}
+.icons_Disc{
+    display: flex;
+    margin: 0 40px;
+    align-items: center;
+     color: rgb(236, 150, 150);
+}
+.details__num{
+    font-size: 0.9rem;
+    filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(338deg) brightness(108%) contrast(100%);
+}
+#weather-icon{
+    width: 150px;
+    margin: 20px 0;
+}
