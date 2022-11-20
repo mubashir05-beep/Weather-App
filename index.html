@@ -10,27 +10,26 @@
 </head>
 <body>
     <form>
-        <input type="text" id="countryName" value="Islamabad">
-        <input id="submitButton" type="submit" value="Submit">
+        <input type="text" id="countryName" value="Islamabad"">
     </form>
     <div class="container">
         <div class="temp">
             <span class="mainTemp"></span>
-           <div class="temp__unit" onclick=""  data-celsius="true" >°C</div> 
+           <div class="temp__unit" onclick="changeUnits()"  data-celsius="true"></div> 
         </div>
         <div class="desc">MIST</div>
        <div class="detail_Desc">
 <div class="icons_Disc">
     <img  class="icon" src="img/pressure.svg" alt="" srcset="">
-    <div id="pressure" class="details__num">122</div>
+    <div id="pressure" class="details__num"></div>
 </div>
 <div class="icons_Disc">
     <img class="icon" src="img/humidity.svg" alt="" srcset="">
-    <div id="humidity" class="details__num">111</div>
+    <div id="humidity" class="details__num"></div>
 </div>
 <div class="icons_Disc">
     <img class="icon" src="img/wind.svg" alt="" srcset="">
-    <div id="wind" class="details__num">11</div>
+    <div id="wind" class="details__num"></div>
 </div>
        </div>
        <img src="" alt="" id="weather-icon" />

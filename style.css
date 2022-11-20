@@ -16,10 +16,14 @@ body{
 .container{
     display: flex;
     align-items: center;
- text-align: center;
+    text-align: center;
     flex-direction: column;
- background-color:rgba(192, 115, 255, 0.5);
-   border-radius: 50px 0;
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
 }
 .icon{
     width: 30px;
@@ -29,14 +33,15 @@ body{
     border: none;
     font-size: 3.5rem;
     text-align: center;
-  max-width: 450px;
-  background: none;
-  text-decoration: 1px underline;
-  color: inherit;
-  outline: none;
+    max-width: 450px;
+    background: none;
+    text-decoration: 1px underline;
+    color: inherit;
+    outline: none;
     margin: 20px  0;
-    color: rgb(0, 0, 0);
+ filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(338deg) brightness(108%) contrast(100%);
 }
+
 .temp{
     display: flex;
     font-size: 2rem;
