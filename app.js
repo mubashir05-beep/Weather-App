@@ -35,7 +35,7 @@ let unit='imperial';
 cityForm.addEventListener('submit', ev => {
     ev.preventDefault();
     const result = cityInput.value;
-    weatherData(result)
+    weatherData(result,unit)
     cityInput.blur()
   })
 
