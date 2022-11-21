@@ -143,7 +143,7 @@ function transformDesc(data){
 function dateUpdated(){
     let date = new Date()
     let today = date.getDate()
-    let month = date.getMonth()
+    let month = date.getMonth()+1;
     let year = date.getFullYear()
     dateLocal.innerHTML=`
 ${today}<span>/</span>${month}<span>/</span>${year}
