@@ -1,5 +1,5 @@
 # Weather-App
- LIVE : https://mubashir05-beep.github.io/Weather-App/
+ LIVE : [https://mubashir05-beep.github.io/Weather-App/](https://weather-app-mubashir05.vercel.app/)
  
  OUTPUT : 
  
